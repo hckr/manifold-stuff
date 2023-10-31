@@ -1,0 +1,40 @@
+html {
+  font-family: sans-serif;
+}
+
+.manifold-love-container {
+  display: inline-flex;
+  align-items: start;
+  gap: 50px;
+}
+
+.manifold-love-container table {
+  border-collapse: collapse;
+  color: #333;
+}
+
+.manifold-love-container table * {
+  font-weight: normal;
+}
+
+.manifold-love-container tr:not(:last-child) {
+  border-bottom: 1px solid #ffb0ff;
+}
+
+.manifold-love-container th:first-child {
+  color: #ff69b4;
+}
+
+.manifold-love-container tr > :nth-child(1) {
+  text-align: left;
+}
+
+.manifold-love-container tr > td:nth-child(2) {
+  text-align: right;
+  color: #ff69b4;
+}
+
+.manifold-love-container th,
+.manifold-love-container td {
+  padding: 3px 10px;
+}
