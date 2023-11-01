@@ -1,0 +1,80 @@
+html {
+  font-family: sans-serif;
+  height: 100%;
+  color: #ddd;
+  background: #223;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px #ddd dashed;
+}
+
+.wrapper a:hover,
+.wrapper a:focus {
+  border-bottom-style: solid;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin: 2rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0.5rem 0;
+}
+
+.stats-container {
+  margin: 5rem 0 0;
+  display: inline-flex;
+  align-items: start;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.stats-container table {
+  border-collapse: collapse;
+}
+
+.stats-container table * {
+  font-weight: normal;
+}
+
+.stats-container tr:not(:last-child) {
+  border-bottom: 1px solid #ffb0ff;
+}
+
+.stats-container th:nth-child(2n - 1) {
+  color: #ff69b4;
+}
+
+.stats-container tr > :nth-child(1) {
+  text-align: left;
+}
+
+.stats-container tr > td:nth-child(2) {
+  text-align: right;
+  color: #ff69b4;
+}
+
+.stats-container tr > td:nth-child(3) {
+  text-align: right;
+}
+
+.stats-container th,
+.stats-container td {
+  padding: 3px 10px;
+}
+
+.github-info {
+  margin: 3rem 0 1rem;
+  font-size: 0.8rem;
+}
